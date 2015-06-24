@@ -1,0 +1,86 @@
+body {
+background: url(images/achtergrond.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:              #FFF;
+    font-family:        Sans-serif;
+    font-size:          100%; 
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+	max-width: 1080px;
+	margin: auto;
+ width:100%;
+ height: auto;
+ min-width: 200px;
+}
+
+#header {
+	height: 100px;
+    background-color:red;
+    color:white;
+    text-align:center;
+    border: 1px solid #000;
+}
+
+#nav {
+    background-color:#eeeeee;
+    height:50px;
+    width:100%;
+    text-decoration: none;
+    border: 1px solid #000;
+}
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+}
+
+ul.menu li{
+	display: inline-block;
+    padding: 0;
+    margin-right: 10px;
+    line-height: 50px;
+    text-decoration: none;
+    font-color: white;
+}
+
+ul.menu > li > a{
+    display: block;
+    color:#000;
+    text-decoration: none;
+}
+
+#content {
+ width: 100%;
+ height: auto;
+ border: 1px solid #000;
+ background-color: #777;
+ font-family: arial;
+ font-color: #000;
+}
+
+#content a{
+	color: white;
+    text-decoration: none;
+}
+
+.doosje {
+    width: 31.9%;
+    height: 300px; 
+    float: left; 
+    margin-right: 5px; 
+    margin-left: 6px;
+    margin-top: 25px; 
+    background-color: #777; 
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.doosje a {
+    color: white;
+    text-decoration: none;
+}
